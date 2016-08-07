@@ -26,7 +26,7 @@ Sample Output
 import java.util.Scanner;
 
 
-public class nearprime {
+public class FindTheNearestPrime {
         
    public static void main(String[] args) {
    	
