@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-public class luizalab22
+public class FindTheOutlier
 {
 
      public static void main (String[]args)
