@@ -1,0 +1,69 @@
+/*Find the mode
+
+Problem Statement
+
+The goal is to read in a list of integers into an array and output the one which occurs most frequently.
+If there are two or more values that occur most frequently then choose the one which was earliest in the list.
+Input Format
+
+The first line contains N, the number of inputs. The second line contains N integers separated by a space.
+
+Output Format
+
+The mode, that is, the number which occurs most frequently in the list.
+
+Constraints
+
+1≤N≤1000
+
+-1000≤A[i]≤1000
+
+Sample Input
+
+7
+
+15 18 3 2 -5 6 2
+
+Sample Output
+
+2*/
+
+import java.util.Scanner;
+
+public class findnumberlab3 {
+
+  public static void main(String[] args) {
+      Scanner sc= new Scanner(System.in);
+      int x=sc.nextInt();
+      int[]tab=new int[x];
+      int[]tab2=new int[x];
+
+      for(int i=0;i<x;i++)
+      {
+      	tab[i]=sc.nextInt();
+      }
+
+
+      for(int i=0;i<x;i++)
+      {int count=0;
+      for(int j=0;j<x;j++)
+        {
+        	if(tab[i]==tab[j]){
+
+        		count++;
+        	}
+			tab2[i]=count;
+       	}
+
+      }
+      int max=tab[0];
+      int pom=0;
+
+      for(int i=0;i<x;i++)
+      {
+      	if(max<tab2[i]){max=tab2[i]; pom=i;
+      	}
+      }
+      System.out.println(tab[pom]);
+    }
+}
