@@ -30,7 +30,7 @@ Sample Output
 
 import java.util.*;
 import java.util.Arrays;
-public class lab5version2 {
+public class FindTheMedian {
 
     public static void main(String[] args) {
 
