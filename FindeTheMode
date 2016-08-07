@@ -30,7 +30,7 @@ Sample Output
 
 import java.util.Scanner;
 
-public class findnumberlab3 {
+public class FindTheMode {
 
   public static void main(String[] args) {
       Scanner sc= new Scanner(System.in);
