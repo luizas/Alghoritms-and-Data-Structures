@@ -3,7 +3,7 @@
 
 import java.util.Arrays;
 
-public class bubblesort {
+public class BubbleSortTableofIntegers {
 
 
     public  static void main(String[] args)
