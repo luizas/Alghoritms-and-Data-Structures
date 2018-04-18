@@ -1,4 +1,4 @@
-//Sort array of Strings- Bubble Sort
+//Sort array of Strings- Bubble Sort/test
 
 import java.util.Arrays;
 import java.util.Scanner;
